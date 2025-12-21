@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>سایت خبری</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+
+<div class="container">
+<!-- Header -->
+<header class="nav-bar">
+  <div class="nav-right">
+    <div class="nav-logo">  <a href="index.html"> <img src="img/logo-dark.svg" alt=""></a></div>
+  </div>
+
+  <!-- Desktop Menu -->
+  <nav class="nav-menu">
+    <a href="index.html">صفحه اصلی</a>
+    <a href="news.html">اخبار ویژه</a>
+    <a href="">درباره ما</a>
+    <a href="">تماس</a>
+  </nav>
+
+  <div class="nav-left">
+    <!-- User Icon (Desktop only) -->
+    <div class="nav-user">
+
+      <a href="login.html"><img src="img/login.svg" width="50px" alt=""></a>
+    </div>
+
+    <!-- Burger Menu (Mobile only) -->
+    <div class="nav-burger" id="burgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="burger-menu" id="burgerMenu">
+    <a href="#">صفحه اصلی</a>
+    <a href="#">اخبار ویژه</a>
+    <a href="#">درباره ما</a>
+    <a href="#">تماس</a>
+  </div>
+</header>
+
+<!-- Burger Menu Box -->
+<div class="burger-menu" id="burgerMenu">
+  <a href="#">صفحه اصلی</a>
+  <a href="#">اخبار</a>
+  <a href="#">درباره ما</a>
+  <a href="#">ورود / ثبت نام</a>
+</div>
+</div>
+<main class="container">
+
+  <!-- News Page Header -->
+  <section class="news-page-header fade-up">
+    <h1>اخبار</h1>
+    <div class="news-categories">
+      <span class="category active">همه</span>
+      <span class="category">سیاسی</span>
+      <span class="category">اقتصادی</span>
+      <span class="category">ورزشی</span>
+      <span class="category">فناوری</span>
+      <span class="category">فرهنگی</span>
+    </div>
+  </section>
+
+</main>
+<!--  news  -->
+
+<div class="container">
+
+  <article class="single-news fade-up">
+
+    <!-- Title -->
+    <h1 class="news-title">
+      افزایش قیمت ارز در بازار آزاد
+    </h1>
+
+    <!-- Meta -->
+    <div class="news-meta">
+      <span>اقتصادی</span>
+      <span>۱۴۰۳/۱۰/۰۲</span>
+      <span>نویسنده: تحریریه</span>
+    </div>
+
+    <!-- Image -->
+    <div class="news-image">
+      <img src="https://via.placeholder.com/1200x500" alt="news">
+    </div>
+
+    <!-- Content -->
+    <div class="news-content">
+      <p>
+        در روزهای اخیر بازار ارز با نوسانات قابل توجهی همراه بوده است.
+        کارشناسان معتقدند عوامل متعددی از جمله شرایط سیاسی و اقتصادی
+        در این تغییرات نقش دارند.
+      </p>
+
+      <p>
+        برخی فعالان بازار بر این باورند که این افزایش قیمت موقتی است،
+        اما گروهی دیگر نسبت به ادامه‌دار بودن آن هشدار می‌دهند.
+      </p>
+
+      <blockquote>
+        «بازار ارز بیش از هر زمان دیگری نیازمند ثبات و تصمیم‌گیری
+        شفاف از سوی سیاست‌گذاران است.»
+      </blockquote>
+
+      <p>
+        در همین حال، دولت اعلام کرده است برنامه‌هایی برای کنترل بازار
+        در دستور کار دارد.
+      </p>
+    </div>
+
+    <!-- Tags -->
+    <div class="news-tags">
+      <span>#ارز</span>
+      <span>#اقتصاد</span>
+      <span>#بازار</span>
+    </div>
+
+  </article>
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>درباره ما</h3>
+      <p>یک سایت خبری ساده با آخرین اخبار روزانه.</p>
+    </div>
+    <div class="footer-section">
+      <h3>لینک‌ها</h3>
+      <ul>
+        <li><a href="index.html">صفحه اصلی</a></li>
+        <li><a href="news.html">اخبار ویژه</a></li>
+        <li><a href="login.html">ورود / ثبت نام</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>تماس با ما</h3>
+      <p>ایمیل: info@example.com</p>
+      <p>تلفن: ۰۱۲۳۴۵۶۷۸۹</p>
+      <div class="social">
+        <a href="#">توییتر</a> |
+        <a href="#">اینستاگرام</a> |
+        <a href="#">فیسبوک</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© ۲۰۲۵ سایت خبری ساده. همه حقوق محفوظ امیر حسین نیکو است.</p>
+  </div>
+</footer>
+
+  </body>
+  <script>
+    const burgerBtn = document.getElementById('burgerBtn');
+    const burgerMenu = document.getElementById('burgerMenu');
+
+    burgerBtn.addEventListener('click', () => {
+      burgerMenu.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!burgerBtn.contains(e.target) && !burgerMenu.contains(e.target)) {
+        burgerMenu.classList.remove('active');
+      }
+    });
+  </script>
+
+</html>
