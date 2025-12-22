@@ -1,7 +1,7 @@
 @import "component/style.css";
 @import "component/general.css";
 @import "component/animation.css";
-/*@import "component/about.css";*/
+@import "component/about.css";
 *{
     font-family: sans-serif;!important;
 }
