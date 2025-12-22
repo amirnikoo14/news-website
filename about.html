@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header class="nav-bar">
+    <div class="nav-right">
+        <div class="nav-logo">
+            <a href="index.html" style="text-decoration: none">
+                <img src="img/logo-dark.svg" alt="لوگو">
+                <h6>مرجع خبر آنلاین</h6>
+            </a>
+        </div>
+    </div>
+
+    <nav class="nav-menu">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="news.html">اخبار ویژه</a>
+        <a href="about.html">درباره ما</a>
+    </nav>
+
+    <div class="nav-left">
+        <div class="nav-user">
+            <a href="login.html">
+                <img src="img/login.png" alt="ورود">
+            </a>
+        </div>
+
+        <div class="nav-burger" id="burgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="burger-menu" id="burgerMenu">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="news.html">اخبار ویژه</a>
+        <a href="about.html">درباره ما</a>
+        <a href="login.html">ورود / ثبت نام</a>
+    </div>
+</header>
+
+<div class="burger-menu" id="burgerMenu">
+    <a href="#">صفحه اصلی</a>
+    <a href="#">اخبار</a>
+    <a href="#">درباره ما</a>
+    <a href="#">ورود / ثبت نام</a>
+</div>
+
+
+
+
+
+<section class="about-page container">
+
+    <div class="about-header">
+        <h1>درباره ما</h1>
+        <p>
+            ما یک رسانه خبری مستقل هستیم که تلاش می‌کنیم اخبار مهم روز را
+            دقیق، سریع و بدون حاشیه منتشر کنیم.
+        </p>
+    </div>
+
+    <div class="about-content">
+        <div class="about-text">
+            <h2>ماموریت ما</h2>
+            <p>
+                هدف ما ارائه محتوای خبری قابل اعتماد برای مخاطبانی است که
+                به دنبال خبر واقعی، تحلیل منطقی و دوری از بزرگ‌نمایی هستند.
+            </p>
+
+            <h2>چرا ما؟</h2>
+            <ul>
+                <li>انتشار سریع و دقیق اخبار</li>
+                <li>تمرکز بر کیفیت محتوا، نه کلیک‌سازی</li>
+                <li>طراحی ساده و تجربه کاربری روان</li>
+            </ul>
+        </div>
+
+        <div class="about-image">
+            <img src="img/about.webp" alt="درباره ما">
+        </div>
+    </div>
+
+    <div class="about-stats">
+        <div class="stat">
+            <span>۵+</span>
+            <p>سال فعالیت</p>
+        </div>
+        <div class="stat">
+            <span>۱۲۰۰+</span>
+            <p>خبر منتشر شده</p>
+        </div>
+        <div class="stat">
+            <span>۲۰+</span>
+            <p>دسته‌بندی خبری</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>درباره ما</h3>
+            <p>یک سایت خبری مدرن برای دنبال کردن مهم‌ترین اخبار روز.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>دسترسی سریع</h3>
+            <ul>
+                <li><a href="index.html">صفحه اصلی</a></li>
+                <li><a href="news.html">اخبار ویژه</a></li>
+                <li><a href="login.html">ورود / ثبت نام</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>تماس با ما</h3>
+            <p>info@example.com</p>
+            <p>۰۱۲۳۴۵۶۷۸۹</p>
+            <div class="social">
+                <a href="#">اینستاگرام</a>
+                <a href="#">توییتر</a>
+                <a href="#">فیسبوک</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © ۲۰۲۵ — تمامی حقوق محفوظ است
+    </div>
+</footer>
+
+<script>
+    const btn = document.getElementById('burgerBtn');
+    const menu = document.getElementById('burgerMenu');
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

@@ -4,60 +4,59 @@
     <meta charset="UTF-8">
     <title>سایت خبری</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
-<body>
+<body style="font-family: sans-serif;">
 
 
-
-    <!-- Header -->
-    <header class="nav-bar">
-        <div class="nav-right">
-          <div class="nav-logo">  <a href="index.html"> <img src="img/logo-dark.svg" alt=""></a></div>
+<header class="nav-bar">
+    <div class="nav-right">
+        <div class="nav-logo">
+            <a href="index.html" style="text-decoration: none">
+                <img src="img/logo-dark.svg" alt="لوگو">
+                <h6>مرجع خبر آنلاین</h6>
+            </a>
         </div>
-
-        <!-- Desktop Menu -->
-        <nav class="nav-menu">
-            <a href="index.html">صفحه اصلی</a>
-            <a href="news.html">اخبار ویژه</a>
-            <a href="">درباره ما</a>
-            <a href="">تماس</a>
-        </nav>
-
-        <div class="nav-left">
-            <!-- User Icon (Desktop only) -->
-            <div class="nav-user">
-
-                <a href="login.html"><img src="img/login.svg" width="50px" alt=""></a>
-            </div>
-
-            <!-- Burger Menu (Mobile only) -->
-            <div class="nav-burger" id="burgerBtn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div class="burger-menu" id="burgerMenu">
-            <a href="#">صفحه اصلی</a>
-            <a href="#">اخبار ویژه</a>
-            <a href="#">درباره ما</a>
-            <a href="#">تماس</a>
-        </div>
-    </header>
-
-    <!-- Burger Menu Box -->
-    <div class="burger-menu" id="burgerMenu">
-        <a href="#">صفحه اصلی</a>
-        <a href="#">اخبار</a>
-        <a href="#">درباره ما</a>
-        <a href="#">ورود / ثبت نام</a>
     </div>
 
-    <div class="container">
-    <!-- Hero Section -->
+    <nav class="nav-menu">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="news.html">اخبار ویژه</a>
+        <a href="about.html">درباره ما</a>
+    </nav>
+
+    <div class="nav-left">
+        <div class="nav-user">
+            <a href="login.html">
+                <img src="img/login.png" alt="ورود">
+            </a>
+        </div>
+
+        <div class="nav-burger" id="burgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="burger-menu" id="burgerMenu">
+        <a href="index.html">صفحه اصلی</a>
+        <a href="news.html">اخبار ویژه</a>
+        <a href="about.html">درباره ما</a>
+        <a href="login.html">ورود / ثبت نام</a>
+    </div>
+</header>
+
+<div class="burger-menu" id="burgerMenu">
+    <a href="#">صفحه اصلی</a>
+    <a href="#">اخبار</a>
+    <a href="#">درباره ما</a>
+    <a href="#">ورود / ثبت نام</a>
+</div>
+
+<div class="container">
+
     <section class="hero">
         <div class="hero-big">
             <img src="img/slider-1.webp" alt="خبر بزرگ">
@@ -70,14 +69,14 @@
         </div>
     </section>
 
-    <!-- Card News -->
+
     <section class="card-news-wrapper">
         <div class="card-news">
             <img src="img/n-1.webp" alt="خبر نمونه" class="card-img">
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -86,7 +85,7 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -95,7 +94,7 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -104,7 +103,7 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -113,18 +112,16 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
-
-
 
         <div class="card-news">
             <img src="img/n-6.webp" alt="خبر نمونه" class="card-img">
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -133,7 +130,7 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
 
@@ -142,56 +139,52 @@
             <div class="card-content">
                 <h3 class="card-title">عنوان خبر نمونه</h3>
                 <p class="card-text">خلاصه‌ای از خبر که جذاب و کوتاه باشه تا مخاطب بخواد ادامه بده.</p>
-                <a href="new.html" class="card-btn">ادامه مطلب</a>
+                <a href="newOne.html" class="card-btn">ادامه مطلب</a>
             </div>
         </div>
     </section>
-    </div>
-    <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-section">
-                    <h3>درباره ما</h3>
-                    <p>یک سایت خبری ساده با آخرین اخبار روزانه.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>لینک‌ها</h3>
-                    <ul>
-                        <li><a href="index.html">صفحه اصلی</a></li>
-                        <li><a href="news.html">اخبار ویژه</a></li>
-                        <li><a href="login.html">ورود / ثبت نام</a></li>
-                        <li><a href="about.html">درباره ما</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>تماس با ما</h3>
-                    <p>ایمیل: info@example.com</p>
-                    <p>تلفن: ۰۱۲۳۴۵۶۷۸۹</p>
-                    <div class="social">
-                        <a href="#">توییتر</a> |
-                        <a href="#">اینستاگرام</a> |
-                        <a href="#">فیسبوک</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© ۲۰۲۵ سایت خبری ساده. همه حقوق محفوظ امیر حسین نیکو است.</p>
-            </div>
-        </footer>
+</div>
 
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>درباره ما</h3>
+            <p>یک سایت خبری مدرن برای دنبال کردن مهم‌ترین اخبار روز.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>دسترسی سریع</h3>
+            <ul>
+                <li><a href="index.html">صفحه اصلی</a></li>
+                <li><a href="news.html">اخبار ویژه</a></li>
+                <li><a href="login.html">ورود / ثبت نام</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>تماس با ما</h3>
+            <p>info@example.com</p>
+            <p>۰۱۲۳۴۵۶۷۸۹</p>
+            <div class="social">
+                <a href="#">اینستاگرام</a>
+                <a href="#">توییتر</a>
+                <a href="#">فیسبوک</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © ۲۰۲۵ — تمامی حقوق محفوظ است
+    </div>
+</footer>
 
 <script>
-    const burgerBtn = document.getElementById('burgerBtn');
-    const burgerMenu = document.getElementById('burgerMenu');
-
-    burgerBtn.addEventListener('click', () => {
-        burgerMenu.classList.toggle('active');
-    });
-
-    document.addEventListener('click', (e) => {
-        if (!burgerBtn.contains(e.target) && !burgerMenu.contains(e.target)) {
-            burgerMenu.classList.remove('active');
-        }
+    const btn = document.getElementById('burgerBtn');
+    const menu = document.getElementById('burgerMenu');
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('active');
     });
 </script>
 
